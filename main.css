@@ -104,13 +104,16 @@ header h1 {
     letter-spacing: 4px;
 }
 
-header h4 {
+header h6 {
     font-weight: 300;
     font-size: 1em;
     letter-spacing: 4px;
     color: #b2b2b2;
 }
 
+.txt-type > .txt{
+    border-right: 0.3rem solid #777;
+}
 .main-content {
     position: absolute;
     margin-left: 140px;
@@ -176,11 +179,15 @@ header h4 {
 }
 
 .JS {
+    width: 68%;
+}
+
+.watson_chatson{
     width: 65%;
 }
 
-.watson-chatson {
-    width: 70%;
+.wordpress_developer{
+    width: 85%;
 }
 
 .portfolio h3 {
